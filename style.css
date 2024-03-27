@@ -1,0 +1,40 @@
+body {
+    min-width: 300px;
+    min-height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 34, 100);
+}
+
+.title {
+    color: #e7e7e7;
+    width: fit-content;
+    height: fit-content;
+
+    display: inner-flex;
+    font-size: 2rem;
+    padding: 5px;
+}
+   
+.title span {
+    text-decoration: underline;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #4b4b4b; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #9058ff; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #7f44ff; 
+}
